@@ -1,0 +1,33 @@
+.person {
+	display: inline-block;
+	width: 24%;
+	vertical-align: top;
+}
+h3:hover {
+	cursor: pointer;
+}
+#people p span{
+	color: #0066cc;
+	font-weight: bold;
+}
+#persondata{
+	cursor: pointer;
+}
+.tooltipPerson {
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+#navigation{
+	display: block;
+	background: linear-gradient(lightseagreen, blue);
+}
+.navbar{
+	display: inline-block;
+	padding-left: 50px;
+}
+.sliderxwing {
+	width: 50px;
+	display: block;
+	position: relative;
+}

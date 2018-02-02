@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" 
+	 href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" 
+	 href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+	<script 
+	 src="https://code.jquery.com/jquery-3.2.1.min.js" 
+	 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+	 crossorigin="anonymous"></script>
+	 <script src="script.js"></script>
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="navigation">
+			<div id="home" class="navbar"><a href="home">Home</a></div>
+			<div id="about" class="navbar"><a href="about">Character Search by Name</a></div>
+			<div id="services" class="navbar"><a href="services">Character Search by Picture</a></div>
+			<div id="solutions" class="navbar"><a href="solutions">About the devs</a></div>
+			<div id="contact" class="navbar"><a href="contact">Contact</a></div>
+			
+	</div>
+	<div class='container'>
+		<h1>Star Wars - Search for a Character</h1>
+		<form action="">
+			<input type="text" name="search-params" placeholder="Lando Calrissian">
+			<input type="submit" value="Search">
+		</form>
+		<div id="people"></div>
+	</div>
+</body>
+</html>
